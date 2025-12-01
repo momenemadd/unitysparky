@@ -1526,7 +1526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upwardsLasers: {fileID: 865307924}
   downwardsLasers: {fileID: 1899335735}
-  switchInterval: 2
+  switchInterval: 3
 --- !u!1 &1050428335
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,8 +2207,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403386324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.84, y: -0.17, z: 0}
-  m_LocalScale: {x: 3.2410593, y: 1.0143, z: 1}
+  m_LocalPosition: {x: 11.7101, y: -0.1051, z: 0}
+  m_LocalScale: {x: 3.2579129, y: 1.0269787, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
