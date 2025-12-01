@@ -1,0 +1,651 @@
+fileFormatVersion: 2
+guid: 3feda13d5c90e8549ab9629456958443
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 129
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07340e3fac983614b8614c329b89bb29
+      internalID: 1091216988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 291
+        width: 303
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ea925041e9c0a4b8c6329db1b90b1e
+      internalID: 524457260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 371
+        width: 53
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8241e16a70360be45938beaa29d2f829
+      internalID: -1198011572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 371
+        width: 53
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b9c24fd63ee3a4698d0637fbefb756
+      internalID: 1003682606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 373
+        width: 59
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f4aff680e30bc4fba7f82499ff56e9
+      internalID: 1649448928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 285
+        width: 110
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb28d667add76347b2625c6f2db399b
+      internalID: -614410787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 165
+        width: 273
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5f82de8150a4c4099eba3bd5caf2fc
+      internalID: 1483469993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 291
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca621eb698bb6874388bed69d3b45ac4
+      internalID: -1483969993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 258
+        width: 94
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c6ca02f3775404aa3015e0a4e6505e
+      internalID: -351295272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 222
+        width: 110
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57df0dbbb8283e640bb8ec8fabbbe94e
+      internalID: -1679311712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 149
+        width: 24
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d55a965feb956447a00474c6f5ca5b7
+      internalID: -362956694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 159
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804303beda8c3c843b639dd6f502db62
+      internalID: -1552326443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 159
+        width: 83
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384fe1658f46d14438a19f9ed5caa88f
+      internalID: 583412301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 106
+        width: 99
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587b6fb401552014f91434a3ce34926a
+      internalID: 10483958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 97
+        width: 128
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a72d381a760df499b8a98f4ba568f5
+      internalID: 289103674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 7
+        width: 99
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b80149a1189ef9498bc84e7e4ef18df
+      internalID: 1607359505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 7
+        width: 33
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31f0c2aac21cfd40a5575f6adbc42dc
+      internalID: -1498913674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 67
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893e027a1f0870344a39d08d65d0b99e
+      internalID: -863410805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 71
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598df032d026cd54690899eb24a7dcd7
+      internalID: -385479184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 61
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31c6123178805149a4356c81fe0adba
+      internalID: 1820103595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 76
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56e5c7701f31834ab3697e0b9118a15
+      internalID: -1572767838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 7
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c0ed54a837ba042835313823a99bca
+      internalID: 433970500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 7
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6931c0ed03f9c594892156e41286c4ac
+      internalID: -2009127977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Tower__Level_4_-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 7
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da593d201e5ae745ac718a085f9eb9b
+      internalID: -740187120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Central_Tower__Level_4_-removebg-preview_4: 1649448928
+      Central_Tower__Level_4_-removebg-preview_17: -863410805
+      Central_Tower__Level_4_-removebg-preview_23: -740187120
+      Central_Tower__Level_4_-removebg-preview_11: -1552326443
+      Central_Tower__Level_4_-removebg-preview_2: -1198011572
+      Central_Tower__Level_4_-removebg-preview_0: 1091216988
+      Central_Tower__Level_4_-removebg-preview_7: -1483969993
+      Central_Tower__Level_4_-removebg-preview_12: 583412301
+      Central_Tower__Level_4_-removebg-preview_10: -362956694
+      Central_Tower__Level_4_-removebg-preview_5: -614410787
+      Central_Tower__Level_4_-removebg-preview_9: -1679311712
+      Central_Tower__Level_4_-removebg-preview_6: 1483469993
+      Central_Tower__Level_4_-removebg-preview_1: 524457260
+      Central_Tower__Level_4_-removebg-preview_16: -1498913674
+      Central_Tower__Level_4_-removebg-preview_15: 1607359505
+      Central_Tower__Level_4_-removebg-preview_22: -2009127977
+      Central_Tower__Level_4_-removebg-preview_8: -351295272
+      Central_Tower__Level_4_-removebg-preview_14: 289103674
+      Central_Tower__Level_4_-removebg-preview_13: 10483958
+      Central_Tower__Level_4_-removebg-preview_19: 1820103595
+      Central_Tower__Level_4_-removebg-preview_3: 1003682606
+      Central_Tower__Level_4_-removebg-preview_20: -1572767838
+      Central_Tower__Level_4_-removebg-preview_18: -385479184
+      Central_Tower__Level_4_-removebg-preview_21: 433970500
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

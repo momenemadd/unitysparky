@@ -1,0 +1,453 @@
+fileFormatVersion: 2
+guid: e3769d6ef7a1fd441a1c63d0f2b61e7b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1
+        width: 310
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d181fd2d9a9397644b8ea1810cd1614f
+      internalID: 452602516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 344
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf91663f9379eb42a886c4e24434aa2
+      internalID: 1601761598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 30
+        width: 91
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985a5df32c10f8b4191d7d0c9e03bb6d
+      internalID: -1050832517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 30
+        width: 56
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e910896ccd0104585f6037b7cb84f1
+      internalID: -309083828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 323
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62e3880a7c75ca4485a51b4ca4852f9
+      internalID: 2040926496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 93
+        width: 31
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb5916d3ccf8f849b661ac2eab0aa78
+      internalID: 1397704960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 30
+        width: 68
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833a64f753f04164a986c183f7265c8f
+      internalID: -808617976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 277
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33feb7250fdf93e498dab880efbaf587
+      internalID: 558490612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 223
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f79ed70d1064744804ad28be5e212c
+      internalID: 1164591964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 165
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69049c0a4597e7a47b7285a6021cbc27
+      internalID: -2060453423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 78
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff90506b4131a224d8163ebf98582cb3
+      internalID: 825416503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 62
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8077d3b51bc9e48ad867428381918d
+      internalID: -1685529758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 65
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8719e029742b0164dbe6f0c611c99fab
+      internalID: 850845447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 38
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6e0da227b42b641b0b18118ae324d4
+      internalID: 372124160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LASER_HAZARD_SPRITE_SHEET-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 31
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05be342de986f35469a996f21a258cf0
+      internalID: -959221887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_10: 825416503
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_1: 1601761598
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_4: 2040926496
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_3: -309083828
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_12: 850845447
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_14: -959221887
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_6: -808617976
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_0: 452602516
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_2: -1050832517
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_9: -2060453423
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_11: -1685529758
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_7: 558490612
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_5: 1397704960
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_8: 1164591964
+      LASER_HAZARD_SPRITE_SHEET-removebg-preview_13: 372124160
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
