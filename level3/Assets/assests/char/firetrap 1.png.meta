@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aa56bdd023bcb494db2fabf587f0c2cf
+guid: 58494941c0c0c32489d59792066b4bb4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sentry_0
+      name: firetrap 1_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 12
-        width: 175
-        height: 170
+        x: 0
+        y: 344
+        width: 482
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a634c5b63ac504c488aa941693efa29f
-      internalID: 920110008
+      spriteID: 5c375a18a7fe46e429b0d58d14ad9854
+      internalID: 1159233800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sentry_1
+      name: firetrap 1_1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 195
-        width: 154
-        height: 176
+        x: 0
+        y: 250
+        width: 482
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd9f8aaa4b2339e4ba558ad4008ec0f1
-      internalID: 741727642
+      spriteID: a693711da3b7f184f9b7fd3a94988774
+      internalID: 1102803570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sentry_2
+      name: firetrap 1_2
       rect:
         serializedVersion: 2
-        x: 171
-        y: 217
-        width: 133
-        height: 180
+        x: 0
+        y: 156
+        width: 482
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eefdc94e363058419e7608b16c0548a
-      internalID: 207785098
+      spriteID: 0a2709c726e0bc04ea6348fb37fe181d
+      internalID: -1414778601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sentry_3
+      name: firetrap 1_3
       rect:
         serializedVersion: 2
-        x: 177
-        y: 24
-        width: 149
-        height: 167
+        x: 0
+        y: 62
+        width: 482
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,113 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49526d82a9349d841ab3668e85281865
-      internalID: 391283235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sentry_4
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 217
-        width: 115
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f652abb7f59e9a149901b7ff18091983
-      internalID: -2139935024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sentry_5
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 37
-        width: 125
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9af85adab380f6e4a9dd55227ca370c7
-      internalID: 26168219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sentry_6
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 153
-        width: 163
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e00ea66ab985a9249ba31a7aa6c9a308
-      internalID: 2064371162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sentry_7
-      rect:
-        serializedVersion: 2
-        x: 474
-        y: 140
-        width: 76
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c519d2ba31037b14d8bb504a0d8207de
-      internalID: -783164810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sentry_8
-      rect:
-        serializedVersion: 2
-        x: 457
-        y: 21
-        width: 138
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0599cbfa0a00cae4ea8942bcf935bc8a
-      internalID: -218349223
+      spriteID: 1c662e7a2505ede4e96bb17f109c27e2
+      internalID: 966531240
       vertices: []
       indices: 
       edges: []
@@ -304,15 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sentry_5: 26168219
-      sentry_2: 207785098
-      sentry_0: 920110008
-      sentry_1: 741727642
-      sentry_4: -2139935024
-      sentry_7: -783164810
-      sentry_6: 2064371162
-      sentry_3: 391283235
-      sentry_8: -218349223
+      firetrap 1_1: 1102803570
+      firetrap 1_3: 966531240
+      firetrap 1_0: 1159233800
+      firetrap 1_2: -1414778601
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
