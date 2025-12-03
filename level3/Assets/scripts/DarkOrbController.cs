@@ -5,7 +5,7 @@ public class DarkOrbController : MonoBehaviour
     public float moveSpeed = 2f;
     public float detectionRange = 5f;
     public float attackRange = 2f;
-    public float damage = 1f;
+    public int damageAmount = 1;
 
     private Transform player;
     private Animator anim;
@@ -65,12 +65,18 @@ public class DarkOrbController : MonoBehaviour
         Debug.Log("Dark orb attacks player!");
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+  private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        // Check if we hit the player
+        if (collision.CompareTag("Player"))
         {
-            // Add your player damage system here
-            Debug.Log("Player touched the orb");
+            // Try to get PlayerStats from the player object
+            PlayerStats stats = collision.GetComponent<PlayerStats>();
+
+            if (stats != null)
+            {
+                stats.TakeDamage(damageAmount);
+            }
         }
     }
 }
