@@ -15,7 +15,18 @@ public class floordamage : MonoBehaviour
         
     }
     void OnTriggerEnter2D(Collider2D other){
-        if(other.tag == "Player")
-        FindObjectOfType<LevelManager>().RespawnPlayer();
+        if (other != null && other.CompareTag("Player"))
+        {
+            PlayerStats stats = other.GetComponent<PlayerStats>();
+            if (stats != null)
+            {
+                stats.TakeDamage(1);
+            }
+            else
+            {
+                // Fallback: if PlayerStats isn't attached, respawn to avoid leaving player stuck
+                FindObjectOfType<LevelManager>().RespawnPlayer();
+            }
+        }
     }
 }
