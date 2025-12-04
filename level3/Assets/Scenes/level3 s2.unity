@@ -1105,9 +1105,9 @@ MonoBehaviour:
   Target: {fileID: 201817779}
   CameraSpeed: 6
   minX: 0
-  maxX: 82
+  maxX: 34
   minY: 0
-  maxY: 20
+  maxY: 4.5
 --- !u!1 &991262083
 GameObject:
   m_ObjectHideFlags: 0
