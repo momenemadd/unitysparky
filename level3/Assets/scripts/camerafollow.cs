@@ -1,28 +1,40 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class camerafollow : MonoBehaviour
 {
-    public Transform Target;
-    public float CameraSpeed;
-    public float minX, maxX;
-    public float minY, maxY;
+    public Transform target;            // Placyer
+    public float smoothSpeed = 5f;
+    public BoxCollider2D levelBounds;   // The collider representing the level size
+
+    private float camHalfHeight;
+    private float camHalfWidth;
+
     void Start()
     {
-        
+        Camera cam = Camera.main;
+        camHalfHeight = cam.orthographicSize;
+        camHalfWidth = camHalfHeight * cam.aspect;
     }
 
-    // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
+        if (target == null || levelBounds == null)
+            return;
 
-        if(Target!=null){
-            Vector2 newCamPosition= Vector2.Lerp(transform.position, Target.position,Time.deltaTime * CameraSpeed);
-            float ClampX= Mathf.Clamp(newCamPosition.x, minX, maxX);
-            float ClampY= Mathf.Clamp(newCamPosition.y, minY, maxY);
+        float minX = levelBounds.bounds.min.x + camHalfWidth;
+        float maxX = levelBounds.bounds.max.x - camHalfWidth;
+        float minY = levelBounds.bounds.min.y + camHalfHeight;
+        float maxY = levelBounds.bounds.max.y - camHalfHeight;
 
-            transform.position = new Vector3(ClampX, ClampY, -10f);
-        }
+        Vector3 targetPos = new Vector3(target.position.x, target.position.y, -10f);
+
+        float clampedX = Mathf.Clamp(targetPos.x, minX, maxX);
+        float clampedY = Mathf.Clamp(targetPos.y, minY, maxY);
+
+        Vector3 smoothedPos = Vector3.Lerp(transform.position,
+                                           new Vector3(clampedX, clampedY, -10f),
+                                           smoothSpeed * Time.deltaTime);
+
+        transform.position = smoothedPos;
     }
 }
