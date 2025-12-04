@@ -10,8 +10,11 @@ public class firedamage : MonoBehaviour
         {
             Debug.Log("Player burned!");
 
-            // Insert your player damage logic here:
-            // other.GetComponent<PlayerHealth>().TakeDamage(damage);
+            PlayerStats stats = other.GetComponent<PlayerStats>();
+            if (stats != null)
+            {
+                stats.TakeDamage(damage);
+            }
         }
     }
 }

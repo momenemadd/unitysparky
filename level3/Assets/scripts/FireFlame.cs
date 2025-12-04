@@ -1,10 +1,11 @@
+
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FireFlame : MonoBehaviour
 {
     [Header("Flame Scale Settings")]
+ public int damage = 1;
     public float minScale = 0.0f;   // fully hidden inside tube
     public float maxScale = 1.0f;   // fully extended flame
     public float extendTime = 0.2f;
@@ -58,5 +59,18 @@ public class FireFlame : MonoBehaviour
         }
 
         SetScale(to);
+    }
+private void OnTriggerStay2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player")) return;
+
+        PlayerStats stats = other.GetComponent<PlayerStats>();
+
+        // Only damage when not immune (your PlayerStats handles immunity + respawn)
+        if (stats != null && !stats.isImmune)
+        {
+            stats.TakeDamage(damage);
+            Debug.Log("Player burned by fire! Health: " + stats.health);
+        }
     }
 }

@@ -17,6 +17,20 @@ public class LevelManager : MonoBehaviour
         
     }
     public void RespawnPlayer(){
-        FindObjectOfType<sparky>().transform.position = CurrentCheckpoint.transform.position;
+        if (CurrentCheckpoint == null)
+        {
+            Debug.LogWarning("LevelManager: RespawnPlayer called but CurrentCheckpoint is null");
+            return;
+        }
+
+        var playerObj = FindObjectOfType<sparky>();
+        if (playerObj == null)
+        {
+            Debug.LogWarning("LevelManager: RespawnPlayer could not find object of type 'sparky' to move");
+            return;
+        }
+
+        Debug.Log($"LevelManager: Respawning player '{playerObj.name}' to checkpoint '{CurrentCheckpoint.name}' at {CurrentCheckpoint.transform.position}");
+        playerObj.transform.position = CurrentCheckpoint.transform.position;
     }
 }

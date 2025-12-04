@@ -5,6 +5,7 @@ using UnityEngine;
 public class laser : MonoBehaviour
 {
     [Header("Parents of Laser Groups")]
+     public int damage = 1;
     public Transform upwardsLasers;     // parent of upward1 + upward2
     public Transform downwardsLasers;   // parent of downward1 + downward2 + downward3
 
@@ -39,6 +40,19 @@ public class laser : MonoBehaviour
         foreach (Transform child in parent)
         {
             child.gameObject.SetActive(state);
+        }
+    }
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player")) return;
+
+        PlayerStats stats = other.GetComponent<PlayerStats>();
+
+        // Only damage when not immune (your PlayerStats handles immunity + respawn)
+        if (stats != null && !stats.isImmune)
+        {
+            stats.TakeDamage(damage);
+            Debug.Log("Player burned by fire! Health: " + stats.health);
         }
     }
 }

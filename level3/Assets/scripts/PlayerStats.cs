@@ -16,9 +16,12 @@ public class PlayerStats : MonoBehaviour
     private float immunityTime = 0f;
     public float immunityDuration = 1.5f;
 
+    private bool isRespawning = false;  // Prevent multiple respawns in quick succession
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        Debug.Log($"PlayerStats: Start (health={health}, lives={lives}, sr={(sr==null?"null":"ok")})");
     }
 
     void SpriteFlicker()
@@ -36,6 +39,8 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        Debug.Log($"PlayerStats: TakeDamage called (damage={damage}, isImmune={isImmune}, health={health})");
+
         if (isImmune == false)
         {
             health = health - damage;
@@ -44,9 +49,16 @@ public class PlayerStats : MonoBehaviour
 
             if (lives > 0 && health == 0)
             {
-                FindObjectOfType<LevelManager>().RespawnPlayer();
-                health = 3;
-                lives--;
+                Debug.Log($"PlayerStats: Health reached 0, respawning (lives remaining={lives - 1})");
+                // Guard against multiple respawns in quick succession
+                if (!isRespawning)
+                {
+                    isRespawning = true;
+                    FindObjectOfType<LevelManager>().RespawnPlayer();
+                    health = 3;
+                    lives--;
+                    isRespawning = false;
+                }
             }
             else if (lives == 0 && health == 0)
             {
@@ -56,13 +68,27 @@ public class PlayerStats : MonoBehaviour
 
             Debug.Log("Player Health:" + health.ToString());
             Debug.Log("Player Lives:" + lives.ToString());
+            Debug.Log($"PlayerStats: Damage applied ({damage}), immunity started");
+
+            // Start immunity only when damage was actually applied
+            isImmune = true;
+            immunityTime = 0f;
         }
-        isImmune = true;
-        immunityTime = 0f;
+        else
+        {
+            Debug.Log("PlayerStats: TakeDamage ignored - currently immune");
+        }
     }
 
     void Update()
     {
+        // Debug helper: press K to simulate taking 1 damage
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Debug.Log("PlayerStats: Debug key K pressed - forcing TakeDamage(1)");
+            TakeDamage(1);
+        }
+
         if (isImmune == true)
         {
             SpriteFlicker();
@@ -71,6 +97,7 @@ public class PlayerStats : MonoBehaviour
             {
                 isImmune = false;
                 sr.enabled = true;
+                    Debug.Log("PlayerStats: Immunity ended");
             }
         }
     }
