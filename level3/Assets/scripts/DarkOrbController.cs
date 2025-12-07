@@ -54,7 +54,8 @@ public class DarkOrbController : MonoBehaviour
 
     void MoveTowardsPlayer()
     {
-        Vector2 target = new Vector2(player.position.x, player.position.y);
+        // Move only along the X axis — keep current Y position
+        Vector2 target = new Vector2(player.position.x, transform.position.y);
         transform.position = Vector2.MoveTowards(transform.position, target, moveSpeed * Time.deltaTime);
     }
 
