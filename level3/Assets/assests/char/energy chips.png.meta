@@ -1,0 +1,809 @@
+fileFormatVersion: 2
+guid: b44f9544fe1ce7c49aa2344a20414da3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: energy chips_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1412
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a4d7b9dead6484ea7cb92473bbd5d8
+      internalID: 1988952860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_14
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1402
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7c3290d3a20144e9c6a9d666833fe4
+      internalID: -104393388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1352
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cbe1149f30e0744b7d87ca144cf412
+      internalID: -295422823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_16
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1352
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81df0c2e8fee99943b27a9bf0ce61ebe
+      internalID: 1965928343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_17
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1352
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4ec5272fd585a439f572ef6327f0a2
+      internalID: -1291897786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_18
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1353
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9aae909f3567146831c439b98483de
+      internalID: 31846931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_19
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1352
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb9325bc06967b469d8cbb6f84f9e47
+      internalID: -824007442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_20
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1352
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bd14b8e06599f459cf262f90addabc
+      internalID: 893582806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_21
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1352
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d6d22d532a3b040ba80d7600780fd9
+      internalID: -1364701309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_22
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1352
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015edbef836f51447b0a4d6ebbc4c847
+      internalID: -1523758520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_29
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1332
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590121572a93bba469840b5bcd1cfce9
+      internalID: -192255663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_36
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 977
+        width: 150
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc325ea423c832408f5c7e2e5e5882b
+      internalID: -1622015690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_38
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1256
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2730d0db14477e0439ea63cfcaf44a21
+      internalID: -846768960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_39
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 977
+        width: 150
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914fce958991e8c42bf54216e7367444
+      internalID: 629189873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_40
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1256
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620bc69dd50300547a873118ab42f3b8
+      internalID: 2034399690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_41
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 977
+        width: 150
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b515ae28973d5d742ba7ee05f3da3513
+      internalID: 445348819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_42
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1260
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39e860500210e741ab525083e362a24
+      internalID: -1760572041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_43
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 977
+        width: 152
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e5c0ca18b4bc74b9bc579af96c108e
+      internalID: 912114430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_44
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 734
+        width: 150
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399a9b41583d37147a534b15ec93946a
+      internalID: 962671303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_45
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 737
+        width: 143
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b05d034d152d484a81e0fca514e3bcf
+      internalID: -430370308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_46
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 738
+        width: 190
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc30038be479ab944a5113bde68a53f7
+      internalID: -1091308904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_47
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 738
+        width: 166
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3681d273533851b47853223fc96aafc8
+      internalID: -764391627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_48
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 482
+        width: 139
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca721271b0d0234b955de2eedb269aa
+      internalID: -445316094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 488
+        width: 136
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a766a2ec92b1941ac5ddb2496fa402
+      internalID: -1450893996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_50
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 488
+        width: 129
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d77e1ebb3549348a8f014b58a1a1c3
+      internalID: 522492684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_51
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 488
+        width: 148
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41de69c675355f4ba4bf3c12db94d44
+      internalID: 2120667175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_52
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 230
+        width: 142
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3528852c832ee14e9e9757ea7057e6d
+      internalID: 1082531958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_53
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 235
+        width: 144
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b53c8a6b3fadc346abdfff558ff153f
+      internalID: 800728023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_54
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 230
+        width: 136
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6bf331b37441645bde2b2e35bf265a
+      internalID: -171096649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy chips_55
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 230
+        width: 147
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14813dc98686de9458a4dae5004875d5
+      internalID: 1044821012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      energy chips_12: 1906566082
+      energy chips_9: 637978210
+      energy chips_26: -1577530919
+      energy chips_1: -2125718954
+      energy chips_3: 1173888323
+      energy chips_33: 2131882245
+      energy chips_14: -104393388
+      energy chips_0: -1493767718
+      energy chips_6: 789158812
+      energy chips_20: 893582806
+      energy chips_24: -1817940496
+      energy chips_44: 962671303
+      energy chips_27: 429740237
+      energy chips_43: 912114430
+      energy chips_31: 2120481234
+      energy chips_23: -161800832
+      energy chips_48: -445316094
+      energy chips_17: -1291897786
+      energy chips_54: -171096649
+      energy chips_41: 445348819
+      energy chips_34: 1455274184
+      energy chips_37: 810586439
+      energy chips_30: 1717483040
+      energy chips_28: -450594836
+      energy chips_53: 800728023
+      energy chips_11: 2121764969
+      energy chips_15: -295422823
+      energy chips_45: -430370308
+      energy chips_39: 629189873
+      energy chips_7: 1873232343
+      energy chips_42: -1760572041
+      energy chips_18: 31846931
+      energy chips_25: 1527919142
+      energy chips_36: -1622015690
+      energy chips_55: 1044821012
+      energy chips_13: -1434395757
+      energy chips_2: -953288557
+      energy chips_46: -1091308904
+      energy chips_4: 1409501175
+      energy chips_21: -1364701309
+      energy chips_38: -846768960
+      energy chips_49: -1450893996
+      energy chips_40: 2034399690
+      energy chips_16: 1965928343
+      energy chips_35: -753809959
+      energy chips_50: 522492684
+      energy chips_32: 617817525
+      energy chips_29: -192255663
+      energy chips_52: 1082531958
+      energy chips_8: 138976704
+      energy chips_22: -1523758520
+      energy chips_51: 2120667175
+      energy chips_5: 1988952860
+      energy chips_19: -824007442
+      energy chips_47: -764391627
+      energy chips_10: -1217164887
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
