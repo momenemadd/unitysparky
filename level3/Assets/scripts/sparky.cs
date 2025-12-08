@@ -53,8 +53,8 @@ public class sparky : MonoBehaviour {
             }   
         }
             anim.SetFloat("speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
-anim.SetFloat("height", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y));
-anim.SetBool("grounded", grounded);
+             anim.SetFloat("height", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y));
+             anim.SetBool("grounded", grounded);
 
     
     }
