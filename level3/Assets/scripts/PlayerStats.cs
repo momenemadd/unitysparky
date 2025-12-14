@@ -14,6 +14,9 @@ public class PlayerStats : MonoBehaviour
     public float flickerDuration = 0.1f;
 public int coins=0;
 public TextMeshProUGUI coinCounter;
+
+public TextMeshProUGUI liveCounter;
+
 public Image healthBar;
 public float maxHealth = 3f;
     private SpriteRenderer sr;
@@ -111,6 +114,7 @@ public float maxHealth = 3f;
             }
         }
         coinCounter.text = " " + score.ToString();
+        liveCounter.text = " " + lives.ToString();
     }
 }
 
