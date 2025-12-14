@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -9,7 +10,8 @@ public class PlayerStats : MonoBehaviour
     public static int score = 0;
     private float flickerTime = 0f;
     public float flickerDuration = 0.1f;
-
+public int coins=0;
+public TMP_Text coinCounter;
     private SpriteRenderer sr;
 
     public bool isImmune = false;
@@ -100,6 +102,7 @@ public class PlayerStats : MonoBehaviour
                     Debug.Log("PlayerStats: Immunity ended");
             }
         }
+        coinCounter.text = coins.ToString();
     }
 }
 

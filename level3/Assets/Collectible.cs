@@ -11,6 +11,7 @@ public class Collectible : MonoBehaviour
         {
             PlayerStats.score++;
             AudioManager.Instance.PlayRandomSFX(new AudioClip[] { coin1, coin2 });
+            other.GetComponent<PlayerStats>().coins++;
             Destroy(gameObject);
         }
     }
