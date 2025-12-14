@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class PlayerStats : MonoBehaviour
     private float flickerTime = 0f;
     public float flickerDuration = 0.1f;
 public int coins=0;
-public TMP_Text coinCounter;
+public TextMeshProUGUI coinCounter;
+public Image healthBar;
+public float maxHealth = 3f;
     private SpriteRenderer sr;
 
     public bool isImmune = false;
@@ -48,6 +51,7 @@ public TMP_Text coinCounter;
             health = health - damage;
             if (health < 0)
                 health = 0;
+                healthBar.fillAmount=health / maxHealth;
 
             if (lives > 0 && health == 0)
             {
@@ -59,6 +63,7 @@ public TMP_Text coinCounter;
                     FindObjectOfType<LevelManager>().RespawnPlayer();
                     health = 3;
                     lives--;
+                    healthBar.fillAmount =1f;
                     isRespawning = false;
                 }
             }
@@ -80,6 +85,7 @@ public TMP_Text coinCounter;
         {
             Debug.Log("PlayerStats: TakeDamage ignored - currently immune");
         }
+
     }
 
     void Update()
@@ -102,7 +108,7 @@ public TMP_Text coinCounter;
                     Debug.Log("PlayerStats: Immunity ended");
             }
         }
-        coinCounter.text = coins.ToString();
+        coinCounter.text = " " + score.ToString();
     }
 }
 
