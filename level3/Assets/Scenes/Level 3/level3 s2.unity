@@ -240,6 +240,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 994725659}
     - target: {fileID: -6440444106783178511, guid: 874e7626c413f7640be8c6890a863d92, type: 3}
+      propertyPath: liveCounter
+      value: 
+      objectReference: {fileID: 874696483}
+    - target: {fileID: -6440444106783178511, guid: 874e7626c413f7640be8c6890a863d92, type: 3}
       propertyPath: immunityDuration
       value: 0.2
       objectReference: {fileID: 0}
@@ -1063,6 +1067,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &874696483 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7100555958847900979, guid: 0f587afb5078eef4e9199923a9769afb, type: 3}
+  m_PrefabInstance: {fileID: 5373360109099331179}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &893357936
 PrefabInstance:
   m_ObjectHideFlags: 0
