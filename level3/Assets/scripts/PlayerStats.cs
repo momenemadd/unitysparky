@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -70,8 +71,9 @@ public float maxHealth = 3f;
             else if (lives == 0 && health == 0)
             {
                 Debug.Log("Gameover");
-                Destroy(this.gameObject);
-            }
+                  PlayerPrefs.SetString("LastLevel", SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene("Gameover");
+                            }
 
             Debug.Log("Player Health:" + health.ToString());
             Debug.Log("Player Lives:" + lives.ToString());
