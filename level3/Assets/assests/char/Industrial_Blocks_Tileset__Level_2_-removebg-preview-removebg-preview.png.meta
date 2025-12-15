@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: d6be31f4e940b624299466ad77d413f9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 414
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7271b5f7f2611f04bb436b7e16ce679f
+      internalID: 1801942546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 414
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c64670b04bf2b41acd536c27bb6deb
+      internalID: 639707283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 408
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ee816baa866ff40ad853edfcbb182c
+      internalID: 1325172656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 448
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44bb8965f9ae8248bec9c2260e82d3f
+      internalID: -1384202942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 414
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f1f510829e2b042a2320342a6e654f
+      internalID: 426474092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 336
+        width: 89
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad7f53bb4652db4c914f3cdab47ceba
+      internalID: 1073420916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 324
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1002cf1b6a2d74ca49568aa12a338c
+      internalID: -1269222764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 324
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefc3d3b5f1b62b4e8b5200e444485a8
+      internalID: 362379557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 348
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2ff5acb3ae7d94bb3119eb037c67e0
+      internalID: -1015717010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 253
+        width: 298
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6c1bc7ea1eb0648b9e85086750c7ed
+      internalID: 1111345516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 256
+        width: 104
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260f4d4d9bac59d4198dc9045f350bcd
+      internalID: 504171787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 256
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a58054381f3af46b461f3caaec93d9
+      internalID: -645638346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 175
+        width: 87
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7ad0799641b134eb37bf29f8d5e888
+      internalID: 470196993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 175
+        width: 91
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0666aa681c7d7645b23621c83cabdf3
+      internalID: 1822796478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 231
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918bc6e8c02dd9041abd25237d548781
+      internalID: 1145004755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 178
+        width: 95
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acdd024a33f2084cb8990f4c9f569cd
+      internalID: 1499717514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 184
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9e220db66b1f949abfec25d53cb0a5
+      internalID: 1583824188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 122
+        width: 43
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7512aa4ca87253409518f3a0dcbe2cd
+      internalID: 602113003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 171
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19a0c766c3724b47b1e9f1883fb7852
+      internalID: 634583538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9
+        width: 110
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedc37a18e8a14b4fb4aa9a58a551408
+      internalID: -1416882895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 123
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255cf7251c1b64945ba8cef2d89b648d
+      internalID: 534667423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 9
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954a28552cfeea846818d50b74b6f9ce
+      internalID: -370116674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 102
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3840c3845ccfc0b429e1612175ede28c
+      internalID: 1691588767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 122
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774e6e24d68cd5f41b92706915bec384
+      internalID: -612317630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 69
+        width: 65
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e75efbbdad43b43a3b0e723668c221
+      internalID: -17191255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 9
+        width: 55
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6abefcec0b65f428903086cc3db8a9
+      internalID: 654951639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 9
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcc2f5c0c56ba54ba4200e1a155ae39
+      internalID: 1792692812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 9
+        width: 165
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd2e8ed24af7464f8d549e8bb567f46
+      internalID: -1766929936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_8: -1015717010
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_19: -1416882895
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_3: -1384202942
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_7: 362379557
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_27: -1766929936
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_5: 1073420916
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_4: 426474092
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_25: 654951639
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_21: -370116674
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_6: -1269222764
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_22: 1691588767
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_9: 1111345516
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_11: -645638346
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_26: 1792692812
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_18: 634583538
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_15: 1499717514
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_12: 470196993
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_20: 534667423
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_0: 1801942546
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_16: 1583824188
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_14: 1145004755
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_17: 602113003
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_1: 639707283
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_13: 1822796478
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_2: 1325172656
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_23: -612317630
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_10: 504171787
+      Industrial_Blocks_Tileset__Level_2_-removebg-preview-removebg-preview_24: -17191255
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
