@@ -1509,7 +1509,7 @@ GameObject:
   - component: {fileID: 553824106}
   - component: {fileID: 553824105}
   - component: {fileID: 553824104}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Central_Tower__Level_4_-removebg-preview_18 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
