@@ -10,9 +10,12 @@ public class Collectible : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             PlayerStats.score++;
-            AudioManager.Instance.PlayRandomSFX(new AudioClip[] { coin1, coin2 });
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayRandomSFX(new AudioClip[] { coin1, coin2 });
+            else
+                Debug.LogWarning("Collectible: AudioManager.Instance is null; cannot play coin SFX.");
             other.GetComponent<PlayerStats>().coins++;
-            Destroy(gameObject);
+            transform.root.gameObject.SetActive(false);
         }
     }
 }

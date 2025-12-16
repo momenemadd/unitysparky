@@ -18,8 +18,14 @@ EditorBuildSettings:
     path: Assets/Scenes/CutScenes/Cutscene2.unity
     guid: ec789197d49667d42bb15174c5388d36
   - enabled: 1
+    path: Assets/Scenes/level1/Level1s1.unity
+    guid: a6bad576274405442be5b1ef2abdb29a
+  - enabled: 1
     path: Assets/Scenes/level1/level1s2.unity
     guid: c6eefa2b3e18f8f4b83cfb9684fe1280
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level2CS.unity
+    guid: 5ba089c4eb8efde42833cd050678efb3
   - enabled: 1
     path: Assets/Scenes/level2/level2s1.unity
     guid: c8860e115a7f5334588c699830225db6
@@ -30,14 +36,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 3/level3 s1.unity
     guid: 6f8b25768d28a1043ae1c3340af61e01
   - enabled: 1
+    path: Assets/Scenes/CutScenes/Level3CS.unity
+    guid: 9441dbde05ea2d74b931808d120cd115
+  - enabled: 1
     path: Assets/Scenes/Level 3/level3 s2.unity
     guid: 01e9a466a8fba314088b98602ffc0592
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level4CS.unity
+    guid: f4c9833b88480964d8ff2deb5b7e818b
   - enabled: 1
     path: Assets/Scenes/level 4/level 4 (1).unity
     guid: ef8ead49dd148994fadf6600678ec53d
   - enabled: 1
     path: Assets/Scenes/level 4/level4s2.unity
     guid: d68e00819473ec44e9e00368307cd330
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Outro.unity
+    guid: 7ccc2ff3fd62aae42bd3030e3af6829f
   - enabled: 1
     path: Assets/Scenes/Gameover.unity
     guid: ca1a76737b744e1429fecc69f345f050
